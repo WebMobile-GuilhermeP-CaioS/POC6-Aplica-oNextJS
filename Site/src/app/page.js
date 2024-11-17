@@ -1,25 +1,25 @@
+"use client";
+
 import Image from "next/image";
 import styles from "./page.module.css";
+import CinemaScreen from "../components/CinemaScreen/CinemaScreen";
+import PurchaseButton from "../components/PurchaseButton/PurchaseButton";
 
-export default function Home() {
+
+const seatsData = [
+  { status: 'available' },
+  { status: 'unavailable' },
+  // ... mais assentos
+];
+
+const Home = () => {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <section>
-
-        </section>
-        <section>
-          <div>
-
-          </div>
-          <div>
-            
-          </div>
-        </section>
-      </main>
-      <footer className={styles.footer}>
-        <p>Não reembolsamos os valores do ingresso, não insista.</p>
-      </footer>
+    <div>
+      <h1>A Forja</h1>
+      <CinemaScreen seatsData={seatsData} />
+      <PurchaseButton selectedSeats={[]} seatPrice={25.00} />
     </div>
   );
-}
+};
+
+export default Home;
