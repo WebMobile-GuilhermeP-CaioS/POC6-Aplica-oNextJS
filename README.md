@@ -11,7 +11,7 @@ POC 6 - Aplicação NextJS
 
 ### **Criação do Projeto NextJS 14**:
 
-Inicialmente, criaremos o projeto em NextJS 14 com o comando `npx create-next-app@latest POC-7-SuperHeroe---NextJS`. Em seguida, escolheremos as seguintes configurações de projeto:
+Inicialmente, criaremos o projeto em NextJS 14 com o comando `npx create-next-app@latest POC-6-Aplicacao---NextJS`. Em seguida, escolheremos as seguintes configurações de projeto:
 
 - Would you like to use TypeScript? ... **No**
 - Would you like to use ESLint? ... **Yes**
