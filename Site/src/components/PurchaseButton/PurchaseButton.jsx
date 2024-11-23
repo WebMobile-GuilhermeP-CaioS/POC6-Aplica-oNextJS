@@ -1,7 +1,12 @@
-import React from 'react';
+'use client'
 
-const PurchaseButton = ({ selectedSeats, seatPrice }) => {
-  const totalPrice = selectedSeats.length * seatPrice;
+import React, { useContext } from 'react';
+import ClickContext from "../../app/globais";
+
+export default function PurchaseButton ({ contador, seatPrice }) {
+  const { clickCount } = useContext(ClickContext);
+
+  const totalPrice = clickCount * seatPrice;
 
   const handlePurchase = () => {
     alert('Compra realizada com sucesso');

@@ -6,12 +6,152 @@ body {
   margin: 0;
   background-color: var(--background-color);
   color: var(--foreground-color);
+  font-family: system-ui;
+}
+
+.baddybox{
+  display: block;
+}
+
+.cinema{
+  display: flex;
 }
 
 .cinema-screen {
   display: flex;
   flex-wrap: wrap;
   width: 300px;
+}
+
+.boxinfofilme{
+  width: 500px;
+  margin-left: 5px;
+}
+
+.boxsala{
+  margin-right: 5px;
+}
+
+.boxpostetitulo{
+  display: flex;
+  align-items: center;
+}
+
+.boxtitulohorario{
+  margin-left: 15px;
+}
+
+.boxtitulohorario h1{
+  font-size: 2.5em;
+  font-weight: bolder;
+  margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+.boxtitulohorario h2{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: lighter;
+  margin-block-start: 0em;
+    margin-block-end: 0.5em;
+}
+
+.boxpostetitulo img{
+  width: 120px;
+}
+
+.boxassentos{
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+  user-select: none;
+}
+
+.buttoncomprar{
+  display: flex;
+      justify-content: center
+}
+
+.buttoncomprar button{
+  background: darkred;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.box h1{
+  margin: 13px;
+  font-weight: normal;
+}
+
+.boxbranco {
+  background-color: white;
+}
+
+.boxcinza {
+  background-color: gray;
+}
+
+.boxvermelho {
+  background-color: red;
+}
+
+.boxinfossala{
+  text-align: center;
+}
+
+.boxtela{
+  width: 100%;
+  height: 20px;
+  background-color: gray;
+}
+
+.boxlegenda{
+  display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.balllivre{
+  width: 15px;
+    height: 14px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+.ballselecionado{
+  width: 15px;
+    height: 14px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+.ballindisponivel{
+  width: 15px;
+    height: 14px;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-right: 5px;
+    margin-left: 15px;
 }
 
 .seat {
@@ -40,5 +180,54 @@ body {
   :root {
     --background-color: #ffffff;
     --foreground-color: #000000;
+  }
+}
+
+/* Media query para dispositivos móveis */
+@media (max-width: 600px) {
+  .cinema {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .boxpostetitulo img{
+    display: none;
+  }
+
+  .boxmaisinfos{
+    display: none;
+  }
+
+  .cinema-screen,
+  .boxinfofilme,
+  .boxassentos {
+    width: 100%;
+  }
+
+  .boxpostetitulo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .boxtitulohorario {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .boxtitulohorario h1 {
+    font-size: 1.8em;
+  }
+
+  .boxtitulohorario h2 {
+    font-size: 1.2em;
+  }
+
+  .boxpostetitulo img {
+    width: 80px;
+  }
+
+  .box {
+    width: 40px;
+    height: 40px;
   }
 }

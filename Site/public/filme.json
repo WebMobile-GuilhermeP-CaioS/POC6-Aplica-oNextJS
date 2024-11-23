@@ -1,10 +1,11 @@
 {
-    "titulo": "A Forja",
-    "sinopse": "Um ano depois de encerrar o ensino médio, o jovem Isaías Wright não tem planos para o futuro e é desafiado por sua mãe solo e um empresário de sucesso a começar a traçar um rumo melhor para sua vida. Ele passa a ser discipulado pelo seu novo mentor, conta com orações de sua mãe e de uma guerreira de orações, Dona Clara, e começa a descobrir o propósito de Deus para sua vida.",
-    "dataLancamento": "26 de setembro de 2024 (Brasil)",
-    "direcao": "Alex Kendrick",
-    "horario": "16:40",
-    "preco": 25.0,
+    "titulo": "Ruposh",
+    "sinopse": "ایک آزاد مزاج نوجوان اپنے ماضی میں تکلیف دہ خاندانی تجربات کے ساتھ اپنے آپ کو ایک خوبصورت اجنبی کے ساتھ پاتا ہے، لیکن ان کی پہلی تلخ ملاقات اس کے غیر حل شدہ غصے کو مزید بے چین کر دیتی ہے۔ زنیرہ کا سالار شاہ کا حد سے زیادہ پیار کا مظاہرہ یونیورسٹی میں سب کو حیران کر دیتا ہے اور آخر کار اسے محبت کے حوالے کرنے پر مجبور کر دیتا ہے۔ لیکن جب اسے کم از کم اس کی توقع ہوتی ہے تو سالار اس سے بدلہ لیتا ہے۔ اس کا بدلہ جلد ہی اسے اپنے حقیقی احساسات کو قبول کرنے کی طرف لے جاتا ہے، لیکن اس کے پاس اپنی غلطی کو ختم کرنے کے لیے بہت کم یا کوئی وقت نہیں بچا ہے۔",
+    "dataLancamento": "26 de novembro de 2024 (Pakistan)",
+    "direcao": "Ali Faizan",
+    "horario": "22:40",
+    "preco": 45.0,
+    "poster": "https://glossetc.com/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-25-at-9.54.07-PM.jpeg",
     "assentos": [
       {
         "numero": 1,
@@ -12,7 +13,7 @@
       },
       {
         "numero": 2,
-        "disponivel": true
+        "disponivel": false
       },
       {
         "numero": 3,
