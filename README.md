@@ -3,7 +3,7 @@ POC 6 - Aplicação NextJS
 
 ## Alunos:
 
-* Caio Sampaio. RA: 10381053;
+* Caio Sampaio. RA: 10391053;
 * Guilherme Picoli. RA: 10389843;
 * Caio Filardi. RA: 10341128.
 
@@ -22,20 +22,23 @@ Inicialmente, criaremos o projeto em NextJS 14 com o comando `npx create-next-ap
 - Would you like to customize the import alias (@/* by default)? ... **No**
 
 
-###Visão Geral
+### Visão Geral
 Este projeto é uma prova de conceito para um sistema de reserva de assentos em um cinema. Ele permite que os usuários visualizem a disposição dos assentos, selecionem os assentos desejados e realizem a compra dos mesmos. O projeto é construído utilizando React e Next.js, e faz uso de componentes para representar assentos, tela do cinema e botão de compra.
 
-###Funcionalidades
+### Funcionalidades
+
 Visualização de Assentos: Mostra a disposição dos assentos disponíveis, selecionados e indisponíveis.
 Seleção de Assentos: Permite que o usuário selecione ou desmarque assentos, alterando seu estado visual.
 Informações do Filme: Exibe detalhes do filme, como título, sinopse, data de lançamento, direção e horário.
 Compra de Ingressos: Calcula o preço total com base nos assentos selecionados e permite a compra.
-###Estrutura do Projeto
+
+### Estrutura do Projeto
 Home Component: Componente principal que gerencia o estado dos cliques (assentos selecionados) e fornece o contexto para os componentes filhos.
 Seat Component: Representa cada assento, permitindo a seleção e desmarcação, alterando a cor conforme o estado.
 CinemaScreen Component: Exibe informações detalhadas sobre o filme em exibição.
 PurchaseButton Component: Botão que calcula o preço total dos assentos selecionados e simula a compra.
-###Como Executar o Projeto
+
+### Como Executar o Projeto
 Clone o Repositório: Clone este repositório em sua máquina local.
 Instale as Dependências: Navegue até o diretório do projeto e execute npm install para instalar todas as dependências necessárias.
 Inicie o Servidor: Execute npm run dev para iniciar o servidor de desenvolvimento.
@@ -101,18 +104,8 @@ const handlePurchase = () => { alert('Compra realizada com sucesso'); };
 return ( <button onClick={handlePurchase}> Comprar R$ {totalPrice.toFixed(2)} </button> ); }
 ```
 
-### Estilos CSS
+### Resultados
 
-
-```
- .box { width: 50px; height: 50px; margin: 5px; border-radius: 12px; box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); user-select: none; }
-
-.boxbranco { background-color: white; }
-
-.boxcinza { background-color: gray; }
-
-.boxvermelho { background-color: red; }
-```
 ![image](https://github.com/user-attachments/assets/728b705f-5466-48dc-b8d9-90761fd3ee33)  
 
 ![image](https://github.com/user-attachments/assets/b0528231-a153-4a98-9588-871e3ef35e5c)  
