@@ -113,3 +113,16 @@ return ( <button onClick={handlePurchase}> Comprar R$ {totalPrice.toFixed(2)} </
 
 .boxvermelho { background-color: red; }
 ```
+![image](https://github.com/user-attachments/assets/728b705f-5466-48dc-b8d9-90761fd3ee33)  
+
+![image](https://github.com/user-attachments/assets/b0528231-a153-4a98-9588-871e3ef35e5c)  
+
+![image](https://github.com/user-attachments/assets/2504b2fc-f5c0-49a2-a068-d54cfe635e40)  
+
+![image](https://github.com/user-attachments/assets/d278599a-fbb8-4c0d-93b5-3de827e8c536)  
+
+![image](https://github.com/user-attachments/assets/1f6f97d2-0b6e-4652-b512-248ff856553a)  
+
+
+
+
