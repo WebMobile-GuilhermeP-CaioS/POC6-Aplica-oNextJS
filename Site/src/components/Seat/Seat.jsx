@@ -24,11 +24,15 @@ export default function Seat({ numero, status, selecionado }) {
     const novoSelecionarLocal = !selecionarLocal;
 setselecionarLocal(novoSelecionarLocal);
 
-if (novoSelecionarLocal) {
-  handleIncrement();
-} else {
-  handleDecrement();
+if (status === true){
+  if (novoSelecionarLocal) {
+    handleIncrement();
+  } else {
+    handleDecrement();
+  }
 }
+
+
 
   };
 
